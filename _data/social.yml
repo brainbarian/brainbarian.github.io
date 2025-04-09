@@ -1,0 +1,15 @@
+- name: YouTube
+  url: "https://www.youtube.com/@TheRandomEncountersPodcast"
+  icon: "fa-youtube"
+- name: Instagram
+  url: "https://www.instagram.com/randomencounterspodcast"
+  icon: "fa-instagram"
+- name: Facebook - not yet
+  url: "https://www.facebook.com/yourpage"
+  icon: "fa-facebook"
+- name: Spotify - not yet
+  url: "https://open.spotify.com/show/yourshowid"
+  icon: "fa-spotify"
+- name: Twitter
+  url: "https://x.com/BrainBarian"
+  icon: "fa-twitter"

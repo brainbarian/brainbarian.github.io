@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  </head>
+  <body>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+    <iframe width="560" height="315" src="{{ page.youtube_url }}" frameborder="0" allowfullscreen></iframe>
+    {{ content }}
+  </body>
+</html>
