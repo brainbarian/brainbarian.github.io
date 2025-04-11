@@ -1,25 +1,19 @@
 ---
 layout: default
-title: "Random Encounters Podcast"
+title: Random Encounters Podcast
 ---
-<input type="checkbox" id="burger-toggle" style="display:none;">
-<label for="burger-toggle" class="burger-menu">☰</label>
-<nav class="nav-menu">
-  <a href="/episodes/" class="nav-link">Episodes</a>
-</nav>
 
-<div class="linktree-container">
-  <h1>Random Encounters Podcast</h1>
-  <p>Under construction please wait!</p>
-  
-  <div class="linktree-links">
-    {% for link in site.data.social %}
-      <a href="{{ link.url }}" class="linktree-button" target="_blank" rel="noopener noreferrer">
-        <i class="fab {{ link.icon }}"></i> {{ link.name }}
+
+
+<div class="linktree">
+  {% for social in site.data.social %}
+    {% if social.url contains "yourpage" or social.url contains "yourshowid" %}
+      <!-- Skip placeholder URLs -->
+    {% else %}
+      <a href="{{ social.url }}" class="link-button {{ social.name | downcase | replace: ' ', '-' }}" aria-label="Visit our {{ social.name }} page">
+        <i class="fab {{ social.icon }}"></i> {{ social.name }}
       </a>
-      
-    {% endfor %}
-  </div>
-  
-  <a href="/episodes/" class="episodes-button">Podcast Episodes</a>
+    {% endif %}
+  {% endfor %}
 </div>
+
