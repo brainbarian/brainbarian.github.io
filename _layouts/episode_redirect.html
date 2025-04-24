@@ -1,0 +1,18 @@
+---
+layout: none
+---
+{% assign episode = site.data.episodes | where: "number", page.title | first %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to {{ episode.title }}</title>
+  <meta http-equiv="refresh" content="0; url={{ episode.youtube }}?utm_source=repod&utm_medium=redirect&utm_campaign=ep{{ episode.number }}">
+  <script>
+    window.location.href = "{{ episode.youtube }}?utm_source=repod&utm_medium=redirect&utm_campaign=ep{{ episode.number }}";
+  </script>
+</head>
+<body>
+  <p>Redirecting to {{ episode.title }}...</p>
+</body>
+</html>

@@ -4,6 +4,9 @@
 - name: Instagram
   url: "https://www.instagram.com/randomencounterspodcast"
   icon: "fa-instagram"
+- name: TikTok
+  url: "https://www.tiktok.com/@randomencounterspodcast"
+  icon: "fa-tiktok"
 - name: Facebook - not yet
   url: "https://www.facebook.com/yourpage"
   icon: "fa-facebook"

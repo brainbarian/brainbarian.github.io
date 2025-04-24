@@ -1,25 +1,26 @@
 ---
-permalink: /404.html
-layout: page
+layout: none
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <script>
+    const episodes = {
+      {% for episode in site.data.episodes %}
+        "{{ episode.number }}": "{{ episode.youtube }}?utm_source=repod&utm_medium=redirect&utm_campaign=ep{{ episode.number }}{% if page.path != '' %}&utm_term={{ page.path | replace: '/', '_' }}{% endif %}",
+      {% endfor %}
+    };
+    const path = window.location.pathname;
+    const parts = path.split('/').filter(Boolean);
+    if (parts.length > 0 && episodes[parts[0]]) {
+      window.location.href = episodes[parts[0]].replace('{{ page.path | replace: "/", "_" }}', parts.slice(1).join('_'));
+    } else {
+      document.body.innerHTML = 'Invalid episode number';
+    }
+  </script>
+</body>
+</html>
