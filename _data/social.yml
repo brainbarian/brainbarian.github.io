@@ -8,10 +8,10 @@
   url: "https://www.tiktok.com/@randomencounterspodcast"
   icon: "fa-tiktok"
 - name: Facebook - not yet
-  url: "https://www.facebook.com/yourpage"
+  url: "https://www.facebook.com/"
   icon: "fa-facebook"
 - name: Spotify - not yet
-  url: "https://open.spotify.com/show/yourshowid"
+  url: "https://open.spotify.com/"
   icon: "fa-spotify"
 - name: Twitter
   url: "https://x.com/BrainBarian"
