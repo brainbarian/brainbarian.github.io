@@ -7,12 +7,12 @@
 - name: TikTok
   url: "https://www.tiktok.com/@randomencounterspodcast"
   icon: "fa-tiktok"
-- name: Facebook - not yet
-  url: "https://www.facebook.com/"
-  icon: "fa-facebook"
-- name: Spotify - not yet
-  url: "https://open.spotify.com/"
-  icon: "fa-spotify"
+# - name: Facebook - not yet
+#  url: "https://www.facebook.com/"
+#  icon: "fa-facebook"
+# - name: Spotify - not yet
+#  url: "https://open.spotify.com/"
+#  icon: "fa-spotify"
 - name: Twitter
-  url: "https://x.com/BrainBarian"
+  url: "https://x.com/RandoEncountPod"
   icon: "fa-twitter"
