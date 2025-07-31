@@ -1,5 +1,5 @@
 - name: YouTube
-  url: "https://www.youtube.com/@TheRandomEncountersPodcast"
+  url: "https://www.youtube.com/@TheRandomEncountersPodcast?sub_confirmation=1"
   icon: "fa-youtube"
 - name: Instagram
   url: "https://www.instagram.com/randomencounterspodcast"
