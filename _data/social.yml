@@ -10,10 +10,10 @@
 # - name: Facebook - not yet
 #  url: "https://www.facebook.com/"
 #  icon: "fa-facebook"
- - name: Spotify - English
+- name: Spotify - English
   url: "https://open.spotify.com/show/5pCbB3Sv9K5jfkG3uB1tsQ"
   icon: "fa-spotify"
- - name: Spotify - עברית
+- name: Spotify - עברית
   url: "https://open.spotify.com/show/08eul0fkqjsVk5uDMdqy2Y"
   icon: "fa-spotify"
 - name: Twitter
