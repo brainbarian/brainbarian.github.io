@@ -10,9 +10,12 @@
 # - name: Facebook - not yet
 #  url: "https://www.facebook.com/"
 #  icon: "fa-facebook"
-# - name: Spotify - not yet
-#  url: "https://open.spotify.com/"
-#  icon: "fa-spotify"
+ - name: Spotify - English
+  url: "https://open.spotify.com/show/5pCbB3Sv9K5jfkG3uB1tsQ"
+  icon: "fa-spotify"
+ - name: Spotify - עברית
+  url: "https://open.spotify.com/show/08eul0fkqjsVk5uDMdqy2Y"
+  icon: "fa-spotify"
 - name: Twitter
   url: "https://x.com/RandoEncountPod"
   icon: "fa-twitter"
