@@ -153,6 +153,20 @@ a:hover {
   background-color: #b02a55;
 }
 
+.link-button.Spotify\ -\ English {
+  background-color: #1db954;
+}
+.link-button.spotify:hover {
+  background-color: #179343;
+}
+
+.link-button.Spotify\ -\ עברית {
+  background-color: #1db954;
+}
+.link-button.spotify:hover {
+  background-color: #179343;
+}
+
 .link-button.twitter {
   background-color: #1da1f2;
 }

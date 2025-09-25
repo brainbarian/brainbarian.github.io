@@ -139,7 +139,7 @@ a:hover {
   transform: scale(1.05);
 }
 
-/* Brand-specific colors for buttons */
+/* Brand-specific colors for button */
 .link-button.youtube {
   background-color: #ff0000;
 }
@@ -154,7 +154,13 @@ a:hover {
   background-color: #b02a55;
 }
 
-.link-button.spotify {
+.link-button.Spotify\ -\ English {
+  background-color: #1db954;
+}
+.link-button.spotify:hover {
+  background-color: #179343;
+}
+.link-button.Spotify\ -\ עברית {
   background-color: #1db954;
 }
 .link-button.spotify:hover {
