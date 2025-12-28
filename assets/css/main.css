@@ -154,16 +154,16 @@ a:hover {
   background-color: #b02a55;
 }
 
-.link-button.Spotify\ -\ English {
+.link-button.spotifyEnglish {
   background-color: #1db954;
 }
-.link-button.spotify:hover {
+.link-button.spotifyEnglish:hover {
   background-color: #179343;
 }
-.link-button.Spotify\ -\ עברית {
+.link-button.spotifyHebrew {
   background-color: #1db954;
 }
-.link-button.spotify:hover {
+.link-button.spotifyHebrew:hover {
   background-color: #179343;
 }
 

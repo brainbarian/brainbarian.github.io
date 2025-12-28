@@ -4,13 +4,13 @@
 - name: Instagram
   url: "https://www.instagram.com/randomencounterspodcast"
   icon: "fa-instagram"
-- name: TikTok
+- name: Tiktok
   url: "https://www.tiktok.com/@randomencounterspodcast"
   icon: "fa-tiktok"
 # - name: Facebook - not yet
 #  url: "https://www.facebook.com/"
 #  icon: "fa-facebook"
-- name: Spotify - English
+- name: Spotify
   url: "https://open.spotify.com/show/5pCbB3Sv9K5jfkG3uB1tsQ"
   icon: "fa-spotify"
 - name: Spotify - עברית
