@@ -1,21 +1,34 @@
 - name: YouTube
   url: "https://www.youtube.com/@TheRandomEncountersPodcast?sub_confirmation=1"
   icon: "fa-youtube"
+  platform: youtube
+
 - name: Instagram
   url: "https://www.instagram.com/randomencounterspodcast"
   icon: "fa-instagram"
+  platform: instagram
+
 - name: Tiktok
   url: "https://www.tiktok.com/@randomencounterspodcast"
   icon: "fa-tiktok"
+  platform: tiktok
+
 # - name: Facebook - not yet
 #  url: "https://www.facebook.com/"
 #  icon: "fa-facebook"
+#  platform: facebook
+
 - name: Spotify
   url: "https://open.spotify.com/show/5pCbB3Sv9K5jfkG3uB1tsQ"
   icon: "fa-spotify"
+  platform: spotify
+
 - name: Spotify - Hebrew
   url: "https://open.spotify.com/show/08eul0fkqjsVk5uDMdqy2Y"
   icon: "fa-spotify"
+  platform: spotify
+
 - name: Twitter
   url: "https://x.com/RandoEncountPod"
   icon: "fa-twitter"
+  platform: twitter
