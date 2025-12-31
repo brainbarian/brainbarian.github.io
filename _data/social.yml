@@ -13,7 +13,7 @@
 - name: Spotify
   url: "https://open.spotify.com/show/5pCbB3Sv9K5jfkG3uB1tsQ"
   icon: "fa-spotify"
-- name: Spotify - עברית
+- name: Spotify - Hebrew
   url: "https://open.spotify.com/show/08eul0fkqjsVk5uDMdqy2Y"
   icon: "fa-spotify"
 - name: Twitter

@@ -154,16 +154,25 @@ a:hover {
   background-color: #b02a55;
 }
 
+.link-button.tiktok {
+  background-color: #000000; [](grok_render_citation_card_json={"cardIds":["20dcc8"]})
+  color: #ffffff;
+}
+.link-button.tiktok:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
 .link-button.spotify {
   background-color: #1db954;
 }
 .link-button.spotify:hover {
   background-color: #179343;
 }
-.link-button.spotify {
+
+.link-button.spotifyHeb {
   background-color: #1db954;
 }
-.link-button.spotify:hover {
+.link-button.spotifyHeb:hover {
   background-color: #179343;
 }
 
